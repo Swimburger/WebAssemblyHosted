@@ -41,6 +41,6 @@ app.UseRouting();
 
 app.MapRazorPages();
 app.MapControllers();
-app.MapFallbackToPage("/BlazorHost");
+app.MapFallbackToPage("/_Host");
 
 app.Run();
